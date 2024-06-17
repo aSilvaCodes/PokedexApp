@@ -5,6 +5,11 @@
              x:Class="PokedexApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="Primary">White</Color>
+            <Color x:Key="PrimaryDark">Black</Color>
+            <Color x:Key="Accent">Red</Color>
+            
+            
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
