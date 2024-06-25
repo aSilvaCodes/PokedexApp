@@ -1038,3 +1038,5 @@ D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_Generat
 D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\r\drawable\bubasaur.png
+D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\r\drawable\charmander.png
+D:\GitHub\Projects\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\r\drawable\squirtle.png
