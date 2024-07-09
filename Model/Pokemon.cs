@@ -6,37 +6,29 @@ using System.Threading.Tasks;
 
 namespace PokedexApp.Model
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-    public class NextEvolution
-    {
-        public string num { get; set; }
-        public string name { get; set; }
-    }
-
     public class Pokemon
     {
-        public int id { get; set; }
-        public string num { get; set; }
-        public string name { get; set; }
-        public string img { get; set; }
-        public List<string> type { get; set; }
-        public string height { get; set; }
-        public string weight { get; set; }
-        public List<string> weaknesses { get; set; }
-        public List<NextEvolution> next_evolution { get; set; }
-        public List<PrevEvolution> prev_evolution { get; set; }
+        public int Id { get; set; }
+        public string Num { get; set; }
+        public string Name { get; set; }
+        public string Img { get; set; }
+        public string[] Type { get; set; }
+        public string Height { get; set; }
+        public string Weight { get; set; }
+        public string[] Weaknesses { get; set; }
+        public Next_Evolution[] Next_evolution { get; set; }
+        public Prev_Evolution[] Prev_evolution { get; set; }
     }
 
-    public class PrevEvolution
+    public class Next_Evolution
     {
-        public string num { get; set; }
-        public string name { get; set; }
+        public string Num { get; set; }
+        public string Name { get; set; }
     }
 
-    public class Root
+    public class Prev_Evolution
     {
-        public List<Pokemon> pokemon { get; set; }
+        public string Num { get; set; }
+        public string Name { get; set; }
     }
-
-
 }
