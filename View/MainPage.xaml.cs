@@ -1,4 +1,4 @@
-﻿namespace PokedexApp
+﻿namespace PokedexApp.View
 {
     public partial class MainPage : ContentPage
     {

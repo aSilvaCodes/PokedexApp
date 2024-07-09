@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:PokedexApp.Model"
-             x:Class="PokedexApp.MainPage">
+             x:Class="PokedexApp.View.MainPage">
 
 
 
@@ -26,31 +26,31 @@
                          Margin="0,0,27,30"/>
 
                 <Ellipse HeightRequest="20"
-                                 WidthRequest="20"
-                                 Fill="Red"
-                                 Grid.Row="0"
-                                 Grid.Column="1"
-                                 Stroke="Black"
-                                 StrokeThickness="3"
-                                 Margin="0,0,100,70"/>
+                         WidthRequest="20"
+                         Fill="Red"
+                         Grid.Row="0"
+                         Grid.Column="1"
+                         Stroke="Black"
+                         StrokeThickness="3"
+                         Margin="0,0,100,70"/>
 
                 <Ellipse HeightRequest="20"
-                                 WidthRequest="20"
-                                 Fill="Yellow"
-                                 Grid.Row="0"
-                                 Grid.Column="1"
-                                 Stroke="Black"
-                                 StrokeThickness="3"
-                                 Margin="0,0,40,70"/>
+                         WidthRequest="20"
+                         Fill="Yellow"
+                         Grid.Row="0"
+                         Grid.Column="1"
+                         Stroke="Black"
+                         StrokeThickness="3"
+                         Margin="0,0,40,70"/>
 
                 <Ellipse HeightRequest="20"
-                                 WidthRequest="20"
-                                 Fill="Green"
-                                 Grid.Row="0"
-                                 Grid.Column="1"
-                                 Stroke="Black"
-                                 StrokeThickness="3"
-                                 Margin="20,0,0,70"/>
+                         WidthRequest="20"
+                         Fill="Green"
+                         Grid.Row="0"
+                         Grid.Column="1"
+                         Stroke="Black"
+                         StrokeThickness="3"
+                         Margin="20,0,0,70"/>
 
                 <Frame HeightRequest="300"
                        Margin="0,380,0,0"
