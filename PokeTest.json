@@ -1,6 +1,6 @@
 [
   {
-    "ID": "1",
+    "ID": 1,
     "Number": "001",
     "Name": "Bulbasaur",
     "Img": "http://www.serebii.net/pokemongo/pokemon/001.png",
@@ -10,7 +10,7 @@
     "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
   },
   {
-    "ID": "2",
+    "ID": 2,
     "Number": "002",
     "Name": "Ivysaur",
     "Img": "http://www.serebii.net/pokemongo/pokemon/002.png",
