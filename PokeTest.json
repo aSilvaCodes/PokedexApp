@@ -13,7 +13,7 @@
     "ID": 2,
     "Number": "002",
     "Name": "Ivysaur",
-    "Img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+    "Img": "https://img.pokemondb.net/artwork/large/ivysaur.jpg",
     "Type": [ "Grass", "Poison" ],
     "Height": "0.99m",
     "Weight": "13.0kg",
