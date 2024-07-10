@@ -40,8 +40,8 @@
     "Weaknesses": [ "Water", "Ground", "Rock" ]
   },
   {
-    "ID": 6,
-    "Number": "004",
+    "ID": 5,
+    "Number": "005",
     "Name": "Charmeleon",
     "Img": "https://img.pokemondb.net/artwork/charmeleon.jpg",
     "Type": [ "Fire" ],
