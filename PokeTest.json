@@ -3,7 +3,7 @@
     "ID": 1,
     "Number": "001",
     "Name": "Bulbasaur",
-    "Img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-lets-go-pikachu-eevee/5/51/Bulbasaur.jpg?width=1280",
+    "Img": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
     "Type": [ "Grass", "Poison" ],
     "Height": "0.71m",
     "Weight": "6.0kg",
