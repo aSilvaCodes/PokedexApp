@@ -1174,8 +1174,6 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\bin\com.company
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\res\values\colors.xml
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\uploadflags.txt
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resolvedassemblies.hash
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
@@ -1406,8 +1404,6 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\tr\Micro
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
@@ -2087,3 +2083,5 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStub
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb

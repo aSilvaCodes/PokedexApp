@@ -2,22 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:PokedexApp.Model"
+             xmlns:viewmodel="clr-namespace:PokedexApp.ViewModel"
+             x:DataType="viewmodel:PokemonViewModel"
+             Title="{Binding Title}"
              x:Class="PokedexApp.View.MainPage">
 
 
 
     <Grid HorizontalOptions="Center"
-          VerticalOptions="Center">
-
-        <Frame HeightRequest="550"
-               WidthRequest="300"
+          VerticalOptions="Center"
+          RowDefinitions="*,Auto"
+          RowSpacing="50">
+           
+        <Frame 
                BackgroundColor="DarkRed"
                HasShadow="True"
-               BorderColor="Black">
+               BorderColor="Black"
+               Grid.Row="0">
             <!-- Top lights -->
             <Grid RowDefinitions="*,300,*"
                   ColumnDefinitions="*,*,*">
-
+                
                 <Ellipse Fill="DeepSkyBlue"
                          Stroke="White"
                          StrokeThickness="10"
@@ -107,30 +112,18 @@
                                            RadiusX="5"/>
                         <!-- Screen -->
                         <Frame HeightRequest="200"
-                               WidthRequest="220"
+                               WidthRequest="250"
                                Grid.Row="1"
                                VerticalOptions="Center"
                                HorizontalOptions="Center"
-                               Margin="230,0,0,40"
+                               Margin="275,0,0,40"
                                BackgroundColor="DimGray"
                                CornerRadius="0"
                                BorderColor="Black"
-                               Padding="1">        
+                               Padding="1">
                             <CollectionView SelectionMode="Single"
-                                            IsVisible="True">
-                                <CollectionView.ItemsSource>
-                                    <x:Array Type="{x:Type model:Pokemon}">
-                                        <model:Pokemon Name="Bulbasaur"
-                                                       Num="001"
-                                                       Img="bubasaur.png"/>
-                                        <model:Pokemon Name="Charmander"
-                                                       Num="004"
-                                                       Img="charmander.png"/>
-                                        <model:Pokemon Name="Squirtle"
-                                                       Num="007"
-                                                       Img="squirtle.png"/>
-                                    </x:Array>
-                                </CollectionView.ItemsSource>
+                                            IsVisible="True"
+                                            ItemsSource="{Binding Pokemons}">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate x:DataType="model:Pokemon">
                                         <Grid ColumnDefinitions="30,75,*">
@@ -138,13 +131,15 @@
                                                    WidthRequest="40"
                                                    HeightRequest="40"
                                                    Aspect="AspectFill"
-                                                   Margin="20,0,0,0"/>
-                                            <Label Text="{Binding Num}"
+                                                   Margin="10,0,0,0"/>
+                                            <Label Text="{Binding Number}"
                                                    Grid.Column="1"
+                                                   Margin="10,0,0,0"
                                                    HorizontalOptions="Center"
                                                    VerticalOptions="Center"/>
                                             <Label Text="{Binding Name}" FontSize="Header"
                                                    Grid.Column="2"
+                                                   Margin="10,0,0,0"
                                                    HorizontalOptions="Start"
                                                    VerticalOptions="Center"/>
                                         </Grid>
@@ -245,5 +240,13 @@
                            RadiusX="5"/>
             </Grid>
         </Frame>
+        <Button Grid.Row="1"
+                BackgroundColor="Orange"
+                HeightRequest="40"
+                Text="Add Pokemon"
+                Command="{Binding GetPokemonCommand}"
+                IsEnabled="{Binding IsNotBusy}">
+            
+        </Button>
     </Grid>
 </ContentPage>

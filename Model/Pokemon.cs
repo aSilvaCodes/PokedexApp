@@ -1,34 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace PokedexApp.Model
 {
     public class Pokemon
     {
-        public int Id { get; set; }
-        public string Num { get; set; }
+        public int ID { get; set; }
+        public string Number { get; set; }
         public string Name { get; set; }
         public string Img { get; set; }
         public string[] Type { get; set; }
         public string Height { get; set; }
         public string Weight { get; set; }
         public string[] Weaknesses { get; set; }
-        public Next_Evolution[] Next_evolution { get; set; }
-        public Prev_Evolution[] Prev_evolution { get; set; }
     }
+}
+[JsonSerializable(typeof(List<Pokemon>))]
+internal sealed partial class PokeContext : JsonSerializerContext
+{
 
-    public class Next_Evolution
-    {
-        public string Num { get; set; }
-        public string Name { get; set; }
-    }
-
-    public class Prev_Evolution
-    {
-        public string Num { get; set; }
-        public string Name { get; set; }
-    }
 }

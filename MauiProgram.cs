@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using PokedexApp.Services;
 using PokedexApp.View;
 
 namespace PokedexApp
@@ -19,7 +20,16 @@ namespace PokedexApp
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            //Services
+            builder.Services.AddSingleton<PokeService>();
+
+            //ViewModels
+            builder.Services.AddSingleton<PokemonViewModel>();
+
+            //Views
             builder.Services.AddSingleton<MainPage>();
+
+            
 
             return builder.Build();
         }
