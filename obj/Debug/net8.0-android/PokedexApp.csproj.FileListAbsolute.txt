@@ -1056,14 +1056,6 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\PokedexApp.csproj.Assem
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\mauiimage.inputs
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\mauifont.inputs
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\mauisplash.inputs
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\splash.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\splash.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\splash.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\splash.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\splash.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\mauisplash.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\mauifont.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
@@ -1100,7 +1092,6 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_BuildLibraryImpo
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\case_map.txt
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\res.flag
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\lp\91\jl\files.cache
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\lp\92\jl\files.cache
@@ -2085,3 +2076,12 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryPr
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\pokesplash.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\pokesplash.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\pokesplash.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\pokesplash.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\pokesplash.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
