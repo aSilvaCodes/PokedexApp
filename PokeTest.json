@@ -13,10 +13,20 @@
     "ID": 2,
     "Number": "002",
     "Name": "Ivysaur",
-    "Img": "https://img.pokemondb.net/artwork/large/ivysaur.jpg",
+    "Img": "https://img.pokemondb.net/artwork/ivysaur.jpg",
     "Type": [ "Grass", "Poison" ],
     "Height": "0.99m",
     "Weight": "13.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": 3,
+    "Number": "003",
+    "Name": "Ivysaur",
+    "Img": "https://img.pokemondb.net/artwork/venusaur.jpg",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "2.01m",
+    "Weight": "100.0kg",
     "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
   }
 ]
