@@ -1,0 +1,22 @@
+{
+  {
+    "ID": "1",
+    "Number": "001",
+    "Name": "Bulbasaur",
+    "Img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "0.71m",
+    "Weight": "6.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": "2",
+    "Number": "002",
+    "Name": "Ivysaur",
+    "Img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "0.99m",
+    "Weight": "13.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  }
+}
