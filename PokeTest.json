@@ -28,5 +28,15 @@
     "Height": "2.01m",
     "Weight": "100.0kg",
     "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": 4,
+    "Number": "004",
+    "Name": "Charmander",
+    "Img": "https://img.pokemondb.net/artwork/charmander.jpg",
+    "Type": [ "Fire" ],
+    "Height": "0.61m",
+    "Weight": "8.5kg",
+    "Weaknesses": [ "Water", "Ground", "Rock" ]
   }
 ]
