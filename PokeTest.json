@@ -1,4 +1,4 @@
-{
+[
   {
     "ID": "1",
     "Number": "001",
@@ -19,4 +19,4 @@
     "Weight": "13.0kg",
     "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
   }
-}
+]
