@@ -38,5 +38,15 @@
     "Height": "0.61m",
     "Weight": "8.5kg",
     "Weaknesses": [ "Water", "Ground", "Rock" ]
+  },
+  {
+    "ID": 6,
+    "Number": "004",
+    "Name": "Charmeleon",
+    "Img": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+    "Type": [ "Fire" ],
+    "Height": "1.09m",
+    "Weight": "19.0kg",
+    "Weaknesses": [ "Water", "Ground", "Rock" ]
   }
 ]
