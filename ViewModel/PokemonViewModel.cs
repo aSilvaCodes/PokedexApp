@@ -14,6 +14,19 @@ namespace PokedexApp.ViewModel
         }
 
         [RelayCommand]
+        async Task GoToDetailsAsync(Pokemon pokemon)
+        {
+            if(pokemon is null)
+                return;
+
+            await Shell.Current.GoToAsync($"{nameof(DetailsPage)}", true, 
+                new Dictionary<string, object>
+                {
+                    {"Pokemon", pokemon}
+                });
+        }
+
+        [RelayCommand]
         async Task GetPokemonAsync()
         {
             if (IsBusy)

@@ -263,10 +263,15 @@ C:\GitHub\PokedexApp\PokedexApp\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A@2x.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A@3x.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\charmander.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\bubasaur.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\squirtle.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\charmander.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -291,6 +296,8 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetize
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\coremlc\_PartialAppManifest.items
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\coremlc\_BundleResourceWithLogicalName.items
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\coremlc\_ProcessedCoreMLModelsPath.items
@@ -309,10 +316,3 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\refint\Pok
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\PokedexApp.pdb
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\PokedexApp.genruntimeconfig.cache
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\PokedexApp.dll
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A@2x.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\pokesplash_A357F937047A654852998472CE26327055B872FCCB38039CB7CB46069747894A@3x.png
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\ibtool\_BundleResourceWithLogicalName.items
-C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-ios\iossimulator-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items

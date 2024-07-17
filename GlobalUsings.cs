@@ -1,6 +1,7 @@
 ﻿global using CommunityToolkit.Mvvm.ComponentModel;
 global using CommunityToolkit.Mvvm.Input;
 global using PokedexApp.Model;
+global using PokedexApp.View;
 global using PokedexApp.ViewModel;
 global using System.Collections.ObjectModel;
 global using System.ComponentModel;

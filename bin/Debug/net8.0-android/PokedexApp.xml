@@ -16,8 +16,21 @@
         <member name="P:PokedexApp.ViewModel.BaseViewModel.IsVisible">
             <inheritdoc cref="F:PokedexApp.ViewModel.BaseViewModel.isVisible"/>
         </member>
+        <member name="T:PokedexApp.ViewModel.PokemonDetailsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:PokedexApp.ViewModel.PokemonDetailsViewModel.Pokemon">
+            <inheritdoc cref="F:PokedexApp.ViewModel.PokemonDetailsViewModel.pokemon"/>
+        </member>
         <member name="T:PokedexApp.ViewModel.PokemonViewModel">
             <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:PokedexApp.ViewModel.PokemonViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:PokedexApp.ViewModel.PokemonViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:PokedexApp.ViewModel.PokemonViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PokedexApp.ViewModel.PokemonViewModel.GoToDetailsAsync(PokedexApp.Model.Pokemon)"/>.</summary>
         </member>
         <member name="F:PokedexApp.ViewModel.PokemonViewModel.getPokemonCommand">
             <summary>The backing field for <see cref="P:PokedexApp.ViewModel.PokemonViewModel.GetPokemonCommand"/>.</summary>
@@ -84,6 +97,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsVisible" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Pokemon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Pokemon" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -101,6 +117,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Pokemon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Pokemon" generated properties.</summary>
         </member>
     </members>
 </doc>

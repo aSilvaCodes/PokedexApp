@@ -7,8 +7,6 @@
              Title="{Binding Title}"
              x:Class="PokedexApp.View.MainPage">
 
-
-
     <Grid HorizontalOptions="Center"
           VerticalOptions="Center"
           RowDefinitions="*,Auto"
@@ -126,22 +124,35 @@
                                             ItemsSource="{Binding Pokemons}">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate x:DataType="model:Pokemon">
-                                        <Grid ColumnDefinitions="30,75,*">
-                                            <Image Source="{Binding Img}"
-                                                   WidthRequest="40"
-                                                   HeightRequest="40"
-                                                   Aspect="AspectFill"
-                                                   Margin="10,0,0,0"/>
-                                            <Label Text="{Binding Number}"
-                                                   Grid.Column="1"
-                                                   Margin="10,0,0,0"
-                                                   HorizontalOptions="Center"
-                                                   VerticalOptions="Center"/>
-                                            <Label Text="{Binding Name}" FontSize="Header"
-                                                   Grid.Column="2"
-                                                   Margin="10,0,0,0"
-                                                   HorizontalOptions="Start"
-                                                   VerticalOptions="Center"/>
+                                        <Grid Padding="5,3,5,1"
+                                              BackgroundColor="Black">
+                                            <Frame HeightRequest="60"
+                                                   Padding="0">
+                                                <Frame.GestureRecognizers>
+                                                    <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PokemonViewModel}}, Path=GoToDetailsCommand}"/>
+                                                </Frame.GestureRecognizers>
+                                                <Grid ColumnDefinitions="30,75,*">
+                                                    <Image Source="{Binding Img}"
+                                                           WidthRequest="50"
+                                                           HeightRequest="50"
+                                                           Aspect="AspectFit"
+                                                           Margin="30,0,0,0"/>
+                                                    <Label Text="{Binding Number}"
+                                                           Grid.Column="1"
+                                                           Margin="30,0,0,0"
+                                                           HorizontalOptions="Center"
+                                                           VerticalOptions="Center"
+                                                           FontAttributes="Bold"/>
+                                                    <Label Text="{Binding Name}"
+                                                           Grid.Column="2"
+                                                           Margin="10,0,0,0"
+                                                           HorizontalOptions="Start"
+                                                           VerticalOptions="Center"
+                                                           FontSize="Header"
+                                                           FontAttributes="Bold"/>
+                                                </Grid>
+                                            </Frame>
                                         </Grid>
                                     </DataTemplate>
                                 </CollectionView.ItemTemplate>

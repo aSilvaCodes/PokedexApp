@@ -25,11 +25,11 @@ namespace PokedexApp
 
             //ViewModels
             builder.Services.AddSingleton<PokemonViewModel>();
+            builder.Services.AddTransient<PokemonDetailsViewModel>();
 
             //Views
             builder.Services.AddSingleton<MainPage>();
-
-            
+            builder.Services.AddTransient<DetailsPage>();
 
             return builder.Build();
         }

@@ -17,7 +17,7 @@ namespace PokedexApp.Services
             if(pokemonList?.Count > 0)
                 return pokemonList;
 
-            var url = "https://raw.githubusercontent.com/aSilvaCodes/PokedexApp/CollectionView/PokeTest.json?token=GHSAT0AAAAAACUKIPU6ULPVR6IWNGUWKZYMZUOZFFA";
+            var url = "https://raw.githubusercontent.com/aSilvaCodes/PokedexApp/CollectionView/PokeTest.json?token=GHSAT0AAAAAACUKIPU7WGQFV5U2HCK6LQEUZUYJBPQ";
 
             var response = await httpClient.GetAsync(url);
 

@@ -67,4 +67,10 @@
 		<MauiSplashScreen Include="Resources\Splash\pokesplash.svg" BaseSize="128,128" Color="White" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="View\DetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
