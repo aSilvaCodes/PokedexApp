@@ -1,1 +1,1 @@
-D:\GitHub\Projects\PokedexApp\PokedexApp\PokedexApp.csproj;x64
+C:\GitHub\PokedexApp\PokedexApp\PokedexApp.csproj;x64
