@@ -53,5 +53,27 @@
     "Height": "1.09m",
     "Weight": "19.0kg",
     "Weaknesses": [ "Water", "Ground", "Rock" ]
+  },
+  {
+    "ID": 7,
+    "Number": "006",
+    "Name": "Charizard",
+    "Description": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+    "Img": "https://img.pokemondb.net/artwork/charizard.jpg",
+    "Type": [ "Fire", "Flying" ],
+    "Height": "1.70m",
+    "Weight": "90.5kg",
+    "Weaknesses": ["Water", "Electric", "Rock"]
+  },
+  {
+    "ID": 7,
+    "Number": "007",
+    "Name": "Squirtle",
+    "Description": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+    "Img": "https://img.pokemondb.net/artwork/squirtle.jpg",
+    "Type": ["Water"],
+    "Height": "0.51m",
+    "Weight": "9.0kg",
+    "Weaknesses": ["Electric", "Grass"]
   }
 ]
