@@ -55,7 +55,7 @@
     "Weaknesses": [ "Water", "Ground", "Rock" ]
   },
   {
-    "ID": 7,
+    "ID": 6,
     "Number": "006",
     "Name": "Charizard",
     "Description": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
@@ -69,11 +69,33 @@
     "ID": 7,
     "Number": "007",
     "Name": "Squirtle",
-    "Description": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+    "Description": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
     "Img": "https://img.pokemondb.net/artwork/squirtle.jpg",
     "Type": ["Water"],
-    "Height": "0.51m",
+    "Height": "0.5m",
     "Weight": "9.0kg",
+    "Weaknesses": ["Electric", "Grass"]
+  },
+  {
+    "ID": 8,
+    "Number": "008",
+    "Name": "Wartortle",
+    "Description": "Wartortle’s long, furry tail is a symbol of longevity, so this Pokémon is quite popular among older people.",
+    "Img": "https://img.pokemondb.net/artwork/wartortle.jpg",
+    "Type": ["Water"],
+    "Height": "0.99m",
+    "Weight": "22.5kg",
+    "Weaknesses": ["Electric", "Grass"]
+  },
+  {
+    "ID": 9,
+    "Number": "009",
+    "Name": "Blastoise",
+    "Description": "It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.",
+    "Img": "https://img.pokemondb.net/artwork/blastoise.jpg",
+    "Type": ["Water"],
+    "Height": "1.60m",
+    "Weight": "85.5kg",
     "Weaknesses": ["Electric", "Grass"]
   }
 ]
