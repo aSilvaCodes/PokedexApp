@@ -5,13 +5,14 @@
              xmlns:viewmodel="clr-namespace:PokedexApp.ViewModel"
              x:DataType="viewmodel:PokemonViewModel"
              Title="{Binding Title}"
-             x:Class="PokedexApp.View.MainPage">
+             x:Class="PokedexApp.View.MainPage"
+             Shell.NavBarIsVisible="False">
 
     <Grid HorizontalOptions="Center"
           VerticalOptions="Center"
           RowDefinitions="*,Auto"
           RowSpacing="50">
-           
+
         <Frame 
                BackgroundColor="DarkRed"
                HasShadow="True"
@@ -20,7 +21,7 @@
             <!-- Top lights -->
             <Grid RowDefinitions="*,300,*"
                   ColumnDefinitions="*,*,*">
-                
+
                 <Ellipse Fill="DeepSkyBlue"
                          Stroke="White"
                          StrokeThickness="10"
@@ -55,8 +56,14 @@
                          StrokeThickness="3"
                          Margin="20,0,0,70"/>
                 <Button Grid.Column="2"
-                        >
-                    
+                        ImageSource="power_button.png"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        BackgroundColor="LightGray"
+                        Margin="20,0,0,40"
+                        Command="{Binding GetPokemonCommand}"
+                        IsEnabled="{Binding IsNotBusy}">
+
                 </Button>
 
                 <Frame HeightRequest="300"
@@ -124,7 +131,7 @@
                                BorderColor="Black"
                                Padding="1">
                             <CollectionView SelectionMode="Single"
-                                            IsVisible="True"
+                                            IsVisible="{Binding IsVisible}"
                                             ItemsSource="{Binding Pokemons}">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate x:DataType="model:Pokemon">
@@ -255,13 +262,5 @@
                            RadiusX="5"/>
             </Grid>
         </Frame>
-        <Button Grid.Row="1"
-                BackgroundColor="Orange"
-                HeightRequest="40"
-                Text="Add Pokemon"
-                Command="{Binding GetPokemonCommand}"
-                IsEnabled="{Binding IsNotBusy}">
-            
-        </Button>
     </Grid>
 </ContentPage>
