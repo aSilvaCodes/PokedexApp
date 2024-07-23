@@ -54,6 +54,10 @@
                          Stroke="Black"
                          StrokeThickness="3"
                          Margin="20,0,0,70"/>
+                <Button Grid.Column="2"
+                        >
+                    
+                </Button>
 
                 <Frame HeightRequest="300"
                        Margin="0,380,0,0"
@@ -125,7 +129,7 @@
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate x:DataType="model:Pokemon">
                                         <Grid Padding="5,3,5,1"
-                                              BackgroundColor="Black">
+                                              BackgroundColor="DimGray">
                                             <Frame HeightRequest="60"
                                                    Padding="0">
                                                 <Frame.GestureRecognizers>

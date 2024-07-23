@@ -3,10 +3,250 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PokedexApp.View.DetailsPage"
              Title="DetailsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid HorizontalOptions="Center"
+      VerticalOptions="Center"
+      RowDefinitions="*,Auto"
+      RowSpacing="50">
+
+        <Frame 
+           BackgroundColor="DarkRed"
+           HasShadow="True"
+           BorderColor="Black"
+           Grid.Row="0">
+            <!-- Top lights -->
+            <Grid RowDefinitions="*,300,*"
+              ColumnDefinitions="*,*,*">
+
+                <Ellipse Fill="DeepSkyBlue"
+                     Stroke="White"
+                     StrokeThickness="10"
+                     WidthRequest="60"
+                     HeightRequest="60"
+                     Margin="0,0,27,30"/>
+
+                <Ellipse HeightRequest="20"
+                     WidthRequest="20"
+                     Fill="Red"
+                     Grid.Row="0"
+                     Grid.Column="1"
+                     Stroke="Black"
+                     StrokeThickness="3"
+                     Margin="0,0,100,70"/>
+
+                <Ellipse HeightRequest="20"
+                     WidthRequest="20"
+                     Fill="Yellow"
+                     Grid.Row="0"
+                     Grid.Column="1"
+                     Stroke="Black"
+                     StrokeThickness="3"
+                     Margin="0,0,40,70"/>
+
+                <Ellipse HeightRequest="20"
+                     WidthRequest="20"
+                     Fill="Green"
+                     Grid.Row="0"
+                     Grid.Column="1"
+                     Stroke="Black"
+                     StrokeThickness="3"
+                     Margin="20,0,0,70"/>
+
+                <Frame HeightRequest="300"
+                   Margin="0,380,0,0"
+                   Padding="0"
+                   Grid.ColumnSpan="3"
+                   BorderColor="Black">
+                    <!-- Screen Frame -->
+                    <Grid ColumnDefinitions="30,*,30"
+                      RowDefinitions="30,*,30">
+
+                        <Ellipse HeightRequest="30"
+                                     WidthRequest="30"
+                                     Fill="Red"
+                                     Grid.Row="2"
+                                     Stroke="Black"
+                                     StrokeThickness="5"
+                                     Margin="40,0,0,40"/>
+                        <!-- Black stacked lines -->
+                        <Rectangle Fill="Black"
+                                       Stroke="Black"
+                                       StrokeThickness="4"
+                                       Grid.Column="2"
+                                       Grid.Row="2"
+                                       WidthRequest="70"
+                                       HeightRequest="3"
+                                       Margin="0,0,80,70"
+                                       RadiusX="5"/>
+                        <Rectangle Fill="Black"
+                                       Stroke="Black"
+                                       StrokeThickness="4"
+                                       Grid.Column="2"
+                                       Grid.Row="2"
+                                       WidthRequest="70"
+                                       HeightRequest="3"
+                                       Margin="0,0,80,50"
+                                       RadiusX="5"/>
+                        <Rectangle Fill="Black"
+                                       Stroke="Black"
+                                       StrokeThickness="4"
+                                       Grid.Column="2"
+                                       Grid.Row="2"
+                                       WidthRequest="70"
+                                       HeightRequest="3"
+                                       Margin="0,0,80,30"
+                                       RadiusX="5"/>
+                        <Rectangle Fill="Black"
+                                       Stroke="Black"
+                                       StrokeThickness="4"
+                                       Grid.Column="2"
+                                       Grid.Row="2"
+                                       WidthRequest="70"
+                                       HeightRequest="3"
+                                       Margin="0,0,80,10"
+                                       RadiusX="5"/>
+                        <!-- Screen -->
+                        <Frame HeightRequest="200"
+                           WidthRequest="250"
+                           Grid.Row="1"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Margin="275,0,0,40"
+                           BackgroundColor="LightGray"
+                           CornerRadius="0"
+                           BorderColor="Black"
+                           Padding="1">
+                            <ScrollView>
+                                <VerticalStackLayout>
+                                    <Grid ColumnDefinitions="*,Auto,*"
+                                          RowDefinitions="105,Auto,Auto">
+                                        <BoxView BackgroundColor="White"
+                                                 HorizontalOptions="Fill"
+                                                 Grid.ColumnSpan="3"
+                                                 HeightRequest="100"
+                                                 VerticalOptions="Start"
+                                                 Margin="2,0,0,0"/>
+                                        <Image Source="{Binding Pokemon.Img}"
+                                               Grid.ColumnSpan="3"
+                                               HeightRequest="80"
+                                               WidthRequest="80"
+                                               HorizontalOptions="Center"
+                                               VerticalOptions="Start"
+                                               Margin="0,10,0,0"/>
+                                        <Label Text="{Binding Pokemon.Name}"
+                                               Grid.Row="1"
+                                               Grid.ColumnSpan="3"
+                                               HorizontalOptions="Center"
+                                               FontSize="20"
+                                               Margin="0,0,0,0"/>
+                                        <Label Text="{Binding Pokemon.Description}"
+                                               Grid.ColumnSpan="3"
+                                               Grid.Row="2"
+                                               Margin="3,0,0,0"/>
+
+                                    </Grid>
+                                </VerticalStackLayout>
+                            </ScrollView>
+                        </Frame>
+                    </Grid>
+                </Frame>
+                <!-- Thumbstick -->
+                <Ellipse HeightRequest="50"
+                     WidthRequest="50"
+                     Fill="#FF353935"
+                     Grid.Row="2"
+                     Stroke="Black"
+                     StrokeThickness="4"
+                     Margin="0,0,30,40"/>
+                <!-- DPad -->
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       WidthRequest="30"
+                       HeightRequest="50"
+                       Margin="0,40,10,0"/>
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       WidthRequest="30"
+                       HeightRequest="50"
+                       Margin="0,0,10,40"/>
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       WidthRequest="50"
+                       HeightRequest="30"
+                       Margin="0,0,50,0"/>
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       WidthRequest="50"
+                       HeightRequest="30"
+                       Margin="30,0,0,0"/>
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       WidthRequest="30"
+                       HeightRequest="29"
+                       Margin="0,0,10,0"/>
+                <Rectangle Fill="#FF353935"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       WidthRequest="27"
+                       HeightRequest="33"
+                       Margin="0,0,10,0"/>
+                <Ellipse Fill="#FF353935"
+                     Stroke="Black"
+                     StrokeThickness="4"
+                     HeightRequest="25"
+                     WidthRequest="25"
+                     Grid.Row="2"
+                     Grid.Column="2"
+                     Margin="0,0,11,0"/>
+                <!-- Colored Boxes ? -->
+                <Rectangle Fill="Green"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       WidthRequest="90"
+                       HeightRequest="50"
+                       Margin="0,50,45,0"
+                       RadiusX="5"/>
+                <Rectangle Fill="Red"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       WidthRequest="40"
+                       HeightRequest="10"
+                       Margin="0,0,90,50"
+                       RadiusX="5"/>
+                <Rectangle Fill="Turquoise"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       WidthRequest="40"
+                       HeightRequest="10"
+                       Margin="0,0,0,50"
+                       RadiusX="5"/>
+            </Grid>
+        </Frame>
+        <Button Grid.Row="1"
+            BackgroundColor="Orange"
+            HeightRequest="40"
+            Text="Add Pokemon"
+            Command="{Binding GetPokemonCommand}"
+            IsEnabled="{Binding IsNotBusy}">
+
+        </Button>
+    </Grid>
 </ContentPage>
