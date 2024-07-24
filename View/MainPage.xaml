@@ -63,7 +63,6 @@
                         Margin="20,0,0,40"
                         Command="{Binding GetPokemonCommand}"
                         IsEnabled="{Binding IsNotBusy}">
-
                 </Button>
 
                 <Frame HeightRequest="300"
@@ -126,7 +125,7 @@
                                VerticalOptions="Center"
                                HorizontalOptions="Center"
                                Margin="275,0,0,40"
-                               BackgroundColor="DimGray"
+                               BackgroundColor="LightGray"
                                CornerRadius="0"
                                BorderColor="Black"
                                Padding="1">

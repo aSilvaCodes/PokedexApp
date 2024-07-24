@@ -4,6 +4,7 @@
              x:Class="PokedexApp.View.DetailsPage"
              xmlns:viewmodel="clr-namespace:PokedexApp.ViewModel"
              x:DataType="viewmodel:PokemonDetailsViewModel"
+             Shell.NavBarIsVisible="False"
              Title="DetailsPage">
     <Grid HorizontalOptions="Center"
       VerticalOptions="Center"
@@ -152,7 +153,15 @@
                                                Grid.ColumnSpan="3"
                                                Grid.Row="2"
                                                Margin="3,0,0,0"/>
-
+                                        <Button ImageSource="back_button.png"
+                                                HeightRequest="40"
+                                                WidthRequest="40"
+                                                HorizontalOptions="Start"
+                                                VerticalOptions="Start"
+                                                Padding="0"
+                                                BackgroundColor="White"
+                                                Command="{Binding GoBackCommand}">
+                                        </Button>
                                     </Grid>
                                 </VerticalStackLayout>
                             </ScrollView>

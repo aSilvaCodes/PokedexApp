@@ -2086,3 +2086,4 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStub
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\r\drawable\power_button.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-android\resizetizer\r\drawable\back_button.png

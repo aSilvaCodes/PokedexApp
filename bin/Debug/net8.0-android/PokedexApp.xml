@@ -19,6 +19,7 @@
         <member name="T:PokedexApp.ViewModel.PokemonDetailsViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:PokedexApp.ViewModel.PokemonDetailsViewModel.Pokemon">
             <inheritdoc cref="F:PokedexApp.ViewModel.PokemonDetailsViewModel.pokemon"/>
@@ -31,6 +32,12 @@
         </member>
         <member name="P:PokedexApp.ViewModel.PokemonDetailsViewModel.SwitchIsVisCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PokedexApp.ViewModel.PokemonDetailsViewModel.SwitchIsVis"/>.</summary>
+        </member>
+        <member name="F:PokedexApp.ViewModel.PokemonDetailsViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:PokedexApp.ViewModel.PokemonDetailsViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:PokedexApp.ViewModel.PokemonDetailsViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PokedexApp.ViewModel.PokemonDetailsViewModel.GoBackAsync"/>.</summary>
         </member>
         <member name="T:PokedexApp.ViewModel.PokemonViewModel">
             <inheritdoc/>

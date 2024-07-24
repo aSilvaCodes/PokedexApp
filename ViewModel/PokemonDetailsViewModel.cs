@@ -18,5 +18,11 @@
         {
             IsVis = !IsVis;
         }
+
+        [RelayCommand]
+        async Task GoBackAsync()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
     }
 }
