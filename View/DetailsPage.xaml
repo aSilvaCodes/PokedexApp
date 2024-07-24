@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PokedexApp.View.DetailsPage"
+             xmlns:viewmodel="clr-namespace:PokedexApp.ViewModel"
+             x:DataType="viewmodel:PokemonDetailsViewModel"
              Title="DetailsPage">
     <Grid HorizontalOptions="Center"
       VerticalOptions="Center"
@@ -50,6 +52,14 @@
                      Stroke="Black"
                      StrokeThickness="3"
                      Margin="20,0,0,70"/>
+                <Button Grid.Column="2"
+                        ImageSource="power_button.png"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        BackgroundColor="LightGray"
+                        Margin="20,0,0,40"
+                        Command="{Binding SwitchIsVisCommand}">
+                </Button>
 
                 <Frame HeightRequest="300"
                    Margin="0,380,0,0"
@@ -115,7 +125,7 @@
                            CornerRadius="0"
                            BorderColor="Black"
                            Padding="1">
-                            <ScrollView>
+                            <ScrollView IsVisible="{Binding IsVis}">
                                 <VerticalStackLayout>
                                     <Grid ColumnDefinitions="*,Auto,*"
                                           RowDefinitions="105,Auto,Auto">
@@ -240,13 +250,5 @@
                        RadiusX="5"/>
             </Grid>
         </Frame>
-        <Button Grid.Row="1"
-            BackgroundColor="Orange"
-            HeightRequest="40"
-            Text="Add Pokemon"
-            Command="{Binding GetPokemonCommand}"
-            IsEnabled="{Binding IsNotBusy}">
-
-        </Button>
     </Grid>
 </ContentPage>

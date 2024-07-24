@@ -9,5 +9,14 @@
 
         [ObservableProperty]
         Pokemon pokemon;
+
+        [ObservableProperty]
+        bool isVis = true;
+
+        [RelayCommand]
+        void SwitchIsVis()
+        {
+            IsVis = !IsVis;
+        }
     }
 }
