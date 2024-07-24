@@ -8,9 +8,7 @@
              Title="DetailsPage">
     <Grid HorizontalOptions="Center"
       VerticalOptions="Center"
-      RowDefinitions="*,Auto"
-      RowSpacing="50">
-
+      RowDefinitions="*,Auto">
         <Frame 
            BackgroundColor="DarkRed"
            HasShadow="True"

@@ -9,10 +9,7 @@
              Shell.NavBarIsVisible="False">
 
     <Grid HorizontalOptions="Center"
-          VerticalOptions="Center"
-          RowDefinitions="*,Auto"
-          RowSpacing="50">
-
+          VerticalOptions="Center">
         <Frame 
                BackgroundColor="DarkRed"
                HasShadow="True"

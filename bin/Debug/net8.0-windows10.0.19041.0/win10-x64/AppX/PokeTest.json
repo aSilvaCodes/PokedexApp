@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Number": "001",
+    "Name": "Bulbasaur",
+    "Img": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "0.71m",
+    "Weight": "6.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": 2,
+    "Number": "002",
+    "Name": "Ivysaur",
+    "Img": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "0.99m",
+    "Weight": "13.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": 3,
+    "Number": "003",
+    "Name": "Ivysaur",
+    "Img": "https://img.pokemondb.net/artwork/venusaur.jpg",
+    "Type": [ "Grass", "Poison" ],
+    "Height": "2.01m",
+    "Weight": "100.0kg",
+    "Weaknesses": [ "Fire", "Ice", "Flying", "Psychic" ]
+  },
+  {
+    "ID": 4,
+    "Number": "004",
+    "Name": "Charmander",
+    "Img": "https://img.pokemondb.net/artwork/charmander.jpg",
+    "Type": [ "Fire" ],
+    "Height": "0.61m",
+    "Weight": "8.5kg",
+    "Weaknesses": [ "Water", "Ground", "Rock" ]
+  },
+  {
+    "ID": 5,
+    "Number": "005",
+    "Name": "Charmeleon",
+    "Img": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+    "Type": [ "Fire" ],
+    "Height": "1.09m",
+    "Weight": "19.0kg",
+    "Weaknesses": [ "Water", "Ground", "Rock" ]
+  }
+]
