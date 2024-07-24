@@ -1,5 +1,7 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\bubasaur.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\back_button.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\bubasaur.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\charmander.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\power_button.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\squirtle.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png

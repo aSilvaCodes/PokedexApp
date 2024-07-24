@@ -34,6 +34,7 @@ namespace PokedexApp.ViewModel
 
             try
             {
+                IsVisible = !IsVisible;
                 IsBusy = true;
                 var pokemons = await pokeService.GetPokemons();
 

@@ -9,5 +9,20 @@
 
         [ObservableProperty]
         Pokemon pokemon;
+
+        [ObservableProperty]
+        bool isVis = true;
+
+        [RelayCommand]
+        void SwitchIsVis()
+        {
+            IsVis = !IsVis;
+        }
+
+        [RelayCommand]
+        async Task GoBackAsync()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
     }
 }
