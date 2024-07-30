@@ -1131,5 +1131,93 @@
     "Height": "2.11m",
     "Weight": "460.0kg",
     "Weaknesses": ["Fighting"]
+  },
+  {
+    "ID": 104,
+    "Number": "104",
+    "Name": "Articuno",
+    "Description": "Articuno is a Legendary Pokémon known for its ice and flying-type abilities. It has majestic, icy wings and is associated with winter.",
+    "Img": "https://img.pokemondb.net/artwork/articuno.jpg",
+    "Type": ["Ice", "Flying"],
+    "Height": "1.70m",
+    "Weight": "55.4kg",
+    "Weaknesses": ["Electric", "Rock", "Steel", "Fire"]
+  },
+  {
+    "ID": 105,
+    "Number": "105",
+    "Name": "Zapdos",
+    "Description": "Zapdos is a Legendary Pokémon with electric and flying-type abilities. It has powerful electrical attacks and a distinctive thunderstorm association.",
+    "Img": "https://img.pokemondb.net/artwork/zapdos.jpg",
+    "Type": ["Electric", "Flying"],
+    "Height": "1.60m",
+    "Weight": "52.6kg",
+    "Weaknesses": ["Rock", "Ice"]
+  },
+  {
+    "ID": 106,
+    "Number": "106",
+    "Name": "Moltres",
+    "Description": "Moltres is a Legendary Pokémon known for its fire and flying-type abilities. It is associated with the power of flames and rebirth.",
+    "Img": "https://img.pokemondb.net/artwork/moltres.jpg",
+    "Type": ["Fire", "Flying"],
+    "Height": "2.00m",
+    "Weight": "60.0kg",
+    "Weaknesses": ["Electric", "Rock", "Water"]
+  },
+  {
+    "ID": 107,
+    "Number": "107",
+    "Name": "Dratini",
+    "Description": "Dratini is a Dragon-type Pokémon that resembles a serpentine dragon. It is known for its graceful movements and its evolution into Dragonair.",
+    "Img": "https://img.pokemondb.net/artwork/dratini.jpg",
+    "Type": ["Dragon"],
+    "Height": "1.80m",
+    "Weight": "3.3kg",
+    "Weaknesses": ["Dragon", "Ice", "Fairy"]
+  },
+  {
+    "ID": 108,
+    "Number": "108",
+    "Name": "Dragonair",
+    "Description": "Dragonair evolves from Dratini and is a Dragon-type Pokémon with a more elegant and majestic appearance. It is known for its powerful dragon moves and ability to harness storms.",
+    "Img": "https://img.pokemondb.net/artwork/dragonair.jpg",
+    "Type": ["Dragon"],
+    "Height": "4.00m",
+    "Weight": "16.5kg",
+    "Weaknesses": ["Dragon", "Ice", "Fairy"]
+  },
+  {
+    "ID": 109,
+    "Number": "109",
+    "Name": "Dragonite",
+    "Description": "Dragonite is the final evolution of Dratini and Dragonair. It is a Dragon/Flying-type Pokémon known for its friendly nature and powerful moves. It has the ability to fly at high speeds.",
+    "Img": "https://img.pokemondb.net/artwork/dragonite.jpg",
+    "Type": ["Dragon", "Flying"],
+    "Height": "2.20m",
+    "Weight": "210.0kg",
+    "Weaknesses": ["Dragon", "Ice", "Fairy"]
+  },
+  {
+    "ID": 110,
+    "Number": "110",
+    "Name": "Mewtwo",
+    "Description": "Mewtwo is a Legendary Psychic-type Pokémon created through genetic manipulation. It is known for its immense psychic powers and its role in the first Pokémon movie.",
+    "Img": "https://img.pokemondb.net/artwork/mewtwo.jpg",
+    "Type": ["Psychic"],
+    "Height": "2.00m",
+    "Weight": "122.0kg",
+    "Weaknesses": ["Bug", "Ghost", "Dark"]
+  },
+  {
+    "ID": 111,
+    "Number": "111",
+    "Name": "Mew",
+    "Description": "Mew is a Mythical Psychic-type Pokémon said to possess the genetic composition of all Pokémon. It has the ability to learn any move and is known for its playful and elusive nature.",
+    "Img": "https://img.pokemondb.net/artwork/mew.jpg",
+    "Type": ["Psychic"],
+    "Height": "0.40m",
+    "Weight": "4.0kg",
+    "Weaknesses": ["Bug", "Ghost", "Dark"]
   }
 ]
