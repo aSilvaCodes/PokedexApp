@@ -304,3 +304,5 @@ C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PokedexApp.pdb
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PokedexApp.genruntimeconfig.cache
 C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\PokedexApp.dll
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\power_button.png
+C:\GitHub\PokedexApp\PokedexApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\back_button.png
