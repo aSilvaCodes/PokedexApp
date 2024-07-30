@@ -1,0 +1,222 @@
+[
+  {
+    "ID": 1,
+    "Number": "001",
+    "Name": "Bulbasaur",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+    "Type": ["Grass", "Poison"],
+    "Height": "0.71m",
+    "Weight": "6.0kg",
+    "Weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+  },
+  {
+    "ID": 2,
+    "Number": "002",
+    "Name": "Ivysaur",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+    "Type": ["Grass", "Poison"],
+    "Height": "0.99m",
+    "Weight": "13.0kg",
+    "Weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+  },
+  {
+    "ID": 3,
+    "Number": "003",
+    "Name": "Venusaur",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/venusaur.jpg",
+    "Type": ["Grass", "Poison"],
+    "Height": "2.01m",
+    "Weight": "100.0kg",
+    "Weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+  },
+  {
+    "ID": 4,
+    "Number": "004",
+    "Name": "Charmander",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/charmander.jpg",
+    "Type": ["Fire"],
+    "Height": "0.61m",
+    "Weight": "8.5kg",
+    "Weaknesses": ["Water", "Ground", "Rock"]
+  },
+  {
+    "ID": 5,
+    "Number": "005",
+    "Name": "Charmeleon",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+    "Type": ["Fire"],
+    "Height": "1.09m",
+    "Weight": "19.0kg",
+    "Weaknesses": ["Water", "Ground", "Rock"]
+  },
+  {
+    "ID": 6,
+    "Number": "006",
+    "Name": "Charizard",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/charizard.jpg",
+    "Type": ["Fire", "Flying"],
+    "Height": "1.70m",
+    "Weight": "90.5kg",
+    "Weaknesses": ["Water", "Electric", "Rock"]
+  },
+  {
+    "ID": 7,
+    "Number": "007",
+    "Name": "Squirtle",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/squirtle.jpg",
+    "Type": ["Water"],
+    "Height": "0.51m",
+    "Weight": "9.0kg",
+    "Weaknesses": ["Electric", "Grass"]
+  },
+  {
+    "ID": 8,
+    "Number": "008",
+    "Name": "Wartortle",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/wartortle.jpg",
+    "Type": ["Water"],
+    "Height": "0.99m",
+    "Weight": "22.5kg",
+    "Weaknesses": ["Electric", "Grass"]
+  },
+  {
+    "ID": 9,
+    "Number": "009",
+    "Name": "Blastoise",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/blastoise.jpg",
+    "Type": ["Water"],
+    "Height": "1.60m",
+    "Weight": "85.5kg",
+    "Weaknesses": ["Electric", "Grass"]
+  },
+  {
+    "ID": 10,
+    "Number": "010",
+    "Name": "Caterpie",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/caterpie.jpg",
+    "Type": ["Bug"],
+    "Height": "0.30m",
+    "Weight": "2.9kg",
+    "Weaknesses": ["Fire", "Flying", "Rock"]
+  },
+  {
+    "ID": 11,
+    "Number": "011",
+    "Name": "Metapod",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/metapod.jpg",
+    "Type": ["Bug"],
+    "Height": "0.71m",
+    "Weight": "9.9kg",
+    "Weaknesses": ["Fire", "Flying", "Rock"]
+  },
+  {
+    "ID": 12,
+    "Number": "012",
+    "Name": "Butterfree",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/butterfree.jpg",
+    "Type": ["Bug", "Flying"],
+    "Height": "1.09m",
+    "Weight": "32.0kg",
+    "Weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"]
+  },
+  {
+    "ID": 13,
+    "Number": "013",
+    "Name": "Weedle",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/weedle.jpg",
+    "Type": ["Bug", "Poison"],
+    "Height": "0.30m",
+    "Weight": "3.2kg",
+    "Weaknesses": ["Fire", "Flying", "Psychic", "Rock"]
+  },
+  {
+    "ID": 14,
+    "Number": "014",
+    "Name": "Kakuna",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/kakuna.jpg",
+    "Type": ["Bug", "Poison"],
+    "Height": "0.61m",
+    "Weight": "10.0kg",
+    "Weaknesses": ["Fire", "Flying", "Psychic", "Rock"]
+  },
+  {
+    "ID": 15,
+    "Number": "015",
+    "Name": "Beedrill",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/beedrill.jpg",
+    "Type": ["Bug", "Poison"],
+    "Height": "0.99m",
+    "Weight": "29.5kg",
+    "Weaknesses": ["Fire", "Flying", "Psychic", "Rock"]
+  },
+  {
+    "ID": 16,
+    "Number": "016",
+    "Name": "Pidgey",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/pidgey.jpg",
+    "Type": ["Normal", "Flying"],
+    "Height": "0.30m",
+    "Weight": "1.8kg",
+    "Weaknesses": ["Electric", "Rock"]
+  },
+  {
+    "ID": 17,
+    "Number": "017",
+    "Name": "Pidgeotto",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/pidgeotto.jpg",
+    "Type": ["Normal", "Flying"],
+    "Height": "1.09m",
+    "Weight": "30.0kg",
+    "Weaknesses": ["Electric", "Rock"]
+  },
+  {
+    "ID": 18,
+    "Number": "018",
+    "Name": "Pidgeot",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/pidgeot.jpg",
+    "Type": ["Normal", "Flying"],
+    "Height": "1.50m",
+    "Weight": "39.5kg",
+    "Weaknesses": ["Electric", "Rock"]
+  },
+  {
+    "ID": 19,
+    "Number": "019",
+    "Name": "Rattata",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/rattata.jpg",
+    "Type": ["Normal"],
+    "Height": "0.30m",
+    "Weight": "3.5kg",
+    "Weaknesses": ["Fighting"]
+  },
+  {
+    "ID": 20,
+    "Number": "020",
+    "Name": "Raticate",
+    "Description": "",
+    "Img": "https://img.pokemondb.net/artwork/raticate.jpg",
+    "Type": ["Normal"],
+    "Height": "0.71m",
+    "Weight": "18.5kg",
+    "Weaknesses": ["Fighting"]
+  }
+]
