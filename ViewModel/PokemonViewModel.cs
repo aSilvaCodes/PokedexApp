@@ -19,7 +19,7 @@ namespace PokedexApp.ViewModel
             if(pokemon is null)
                 return;
 
-            await Shell.Current.GoToAsync($"{nameof(DetailsPage)}", true, 
+            await Shell.Current.GoToAsync($"{nameof(DetailsPage)}", false, 
                 new Dictionary<string, object>
                 {
                     {"Pokemon", pokemon}

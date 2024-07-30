@@ -22,7 +22,7 @@
         [RelayCommand]
         async Task GoBackAsync()
         {
-            await Shell.Current.GoToAsync("..");
+            await Shell.Current.GoToAsync("..", false);
         }
     }
 }
