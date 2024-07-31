@@ -14,7 +14,10 @@
                BackgroundColor="DarkRed"
                HasShadow="True"
                BorderColor="Black"
-               Grid.Row="0">
+               Grid.Row="0"
+               WidthRequest="400"
+               HeightRequest="780">
+            
             <!-- Top lights -->
             <Grid RowDefinitions="*,300,*"
                   ColumnDefinitions="*,*,*">
@@ -24,7 +27,7 @@
                          StrokeThickness="10"
                          WidthRequest="60"
                          HeightRequest="60"
-                         Margin="0,0,27,30"/>
+                         Margin="0,0,27,80"/>
 
                 <Ellipse HeightRequest="20"
                          WidthRequest="20"
@@ -33,7 +36,7 @@
                          Grid.Column="1"
                          Stroke="Black"
                          StrokeThickness="3"
-                         Margin="0,0,100,70"/>
+                         Margin="0,0,140,120"/>
 
                 <Ellipse HeightRequest="20"
                          WidthRequest="20"
@@ -42,7 +45,7 @@
                          Grid.Column="1"
                          Stroke="Black"
                          StrokeThickness="3"
-                         Margin="0,0,40,70"/>
+                         Margin="0,0,80,120"/>
 
                 <Ellipse HeightRequest="20"
                          WidthRequest="20"
@@ -51,19 +54,19 @@
                          Grid.Column="1"
                          Stroke="Black"
                          StrokeThickness="3"
-                         Margin="20,0,0,70"/>
+                         Margin="0,0,20,120"/>
                 <Button Grid.Column="2"
                         ImageSource="power_button.png"
                         HeightRequest="50"
                         WidthRequest="50"
                         BackgroundColor="LightGray"
-                        Margin="20,0,0,40"
+                        Margin="10,0,0,80"
                         Command="{Binding GetPokemonCommand}"
                         IsEnabled="{Binding IsNotBusy}">
                 </Button>
 
-                <Frame HeightRequest="300"
-                       Margin="0,380,0,0"
+                <Frame HeightRequest="400"
+                       Margin="0,480,0,0"
                        Padding="0"
                        Grid.ColumnSpan="3"
                        BorderColor="Black">
@@ -116,12 +119,12 @@
                                            Margin="0,0,80,10"
                                            RadiusX="5"/>
                         <!-- Screen -->
-                        <Frame HeightRequest="200"
-                               WidthRequest="250"
+                        <Frame HeightRequest="300"
+                               WidthRequest="300"
                                Grid.Row="1"
                                VerticalOptions="Center"
                                HorizontalOptions="Center"
-                               Margin="275,0,0,40"
+                               Margin="330,0,0,40"
                                BackgroundColor="LightGray"
                                CornerRadius="0"
                                BorderColor="Black"
@@ -139,7 +142,7 @@
                                                     <TapGestureRecognizer CommandParameter="{Binding .}"
                                                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PokemonViewModel}}, Path=GoToDetailsCommand}"/>
                                                 </Frame.GestureRecognizers>
-                                                <Grid ColumnDefinitions="30,75,*">
+                                                <Grid ColumnDefinitions="30,100,*">
                                                     <Image Source="{Binding Img}"
                                                            WidthRequest="50"
                                                            HeightRequest="50"
@@ -147,16 +150,17 @@
                                                            Margin="30,0,0,0"/>
                                                     <Label Text="{Binding Number}"
                                                            Grid.Column="1"
-                                                           Margin="30,0,0,0"
-                                                           HorizontalOptions="Center"
+                                                           Margin="0,0,10,0"
+                                                           HorizontalOptions="End"
                                                            VerticalOptions="Center"
-                                                           FontAttributes="Bold"/>
+                                                           FontAttributes="Bold"
+                                                           FontSize="16"/>
                                                     <Label Text="{Binding Name}"
                                                            Grid.Column="2"
-                                                           Margin="10,0,0,0"
+                                                           Margin="30,0,0,0"
                                                            HorizontalOptions="Start"
                                                            VerticalOptions="Center"
-                                                           FontSize="Header"
+                                                           FontSize="16"
                                                            FontAttributes="Bold"/>
                                                 </Grid>
                                             </Frame>
@@ -174,7 +178,7 @@
                          Grid.Row="2"
                          Stroke="Black"
                          StrokeThickness="4"
-                         Margin="0,0,30,40"/>
+                         Margin="0,0,30,0"/>
                 <!-- DPad -->
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
@@ -183,7 +187,7 @@
                            StrokeThickness="4"
                            WidthRequest="30"
                            HeightRequest="50"
-                           Margin="0,40,10,0"/>
+                           Margin="0,80,10,0"/>
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
                            Grid.Row="2"
@@ -191,7 +195,7 @@
                            StrokeThickness="4"
                            WidthRequest="30"
                            HeightRequest="50"
-                           Margin="0,0,10,40"/>
+                           Margin="0,40,10,40"/>
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
                            Grid.Row="2"
@@ -199,7 +203,7 @@
                            StrokeThickness="4"
                            WidthRequest="50"
                            HeightRequest="30"
-                           Margin="0,0,50,0"/>
+                           Margin="0,40,50,0"/>
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
                            Grid.Row="2"
@@ -207,19 +211,19 @@
                            StrokeThickness="4"
                            WidthRequest="50"
                            HeightRequest="30"
-                           Margin="30,0,0,0"/>
+                           Margin="30,40,0,0"/>
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
                            Grid.Row="2"
                            WidthRequest="30"
                            HeightRequest="29"
-                           Margin="0,0,10,0"/>
+                           Margin="0,40,10,0"/>
                 <Rectangle Fill="#FF353935"
                            Grid.Column="2"
                            Grid.Row="2"
                            WidthRequest="27"
                            HeightRequest="33"
-                           Margin="0,0,10,0"/>
+                           Margin="0,40,10,0"/>
                 <Ellipse Fill="#FF353935"
                          Stroke="Black"
                          StrokeThickness="4"
@@ -227,7 +231,7 @@
                          WidthRequest="25"
                          Grid.Row="2"
                          Grid.Column="2"
-                         Margin="0,0,11,0"/>
+                         Margin="0,40,11,0"/>
                 <!-- Colored Boxes ? -->
                 <Rectangle Fill="Green"
                            Stroke="Black"
@@ -236,7 +240,7 @@
                            Grid.Row="2"
                            WidthRequest="90"
                            HeightRequest="50"
-                           Margin="0,50,45,0"
+                           Margin="0,90,45,0"
                            RadiusX="5"/>
                 <Rectangle Fill="Red"
                            Stroke="Black"
@@ -245,7 +249,7 @@
                            Grid.Row="2"
                            WidthRequest="40"
                            HeightRequest="10"
-                           Margin="0,0,90,50"
+                           Margin="0,40,90,50"
                            RadiusX="5"/>
                 <Rectangle Fill="Turquoise"
                            Stroke="Black"
@@ -254,7 +258,7 @@
                            Grid.Row="2"
                            WidthRequest="40"
                            HeightRequest="10"
-                           Margin="0,0,0,50"
+                           Margin="0,40,0,50"
                            RadiusX="5"/>
             </Grid>
         </Frame>
