@@ -75,12 +75,12 @@
                           RowDefinitions="30,*,30">
 
                         <Ellipse HeightRequest="30"
-                                         WidthRequest="30"
-                                         Fill="Red"
-                                         Grid.Row="2"
-                                         Stroke="Black"
-                                         StrokeThickness="5"
-                                         Margin="40,0,0,40"/>
+                                 WidthRequest="30"
+                                 Fill="Red"
+                                 Grid.Row="2"
+                                 Stroke="Black"
+                                 StrokeThickness="5"
+                                 Margin="40,0,0,40"/>
                         <!-- Black stacked lines -->
                         <Rectangle Fill="Black"
                                            Stroke="Black"
