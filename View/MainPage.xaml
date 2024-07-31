@@ -24,9 +24,9 @@
 
                 <Ellipse Fill="DeepSkyBlue"
                          Stroke="White"
-                         StrokeThickness="10"
-                         WidthRequest="60"
-                         HeightRequest="60"
+                         StrokeThickness="15"
+                         WidthRequest="80"
+                         HeightRequest="80"
                          Margin="0,0,27,80"/>
 
                 <Ellipse HeightRequest="20"
@@ -172,8 +172,8 @@
                     </Grid>
                 </Frame>
                 <!-- Thumbstick -->
-                <Ellipse HeightRequest="50"
-                         WidthRequest="50"
+                <Ellipse HeightRequest="60"
+                         WidthRequest="60"
                          Fill="#FF353935"
                          Grid.Row="2"
                          Stroke="Black"
